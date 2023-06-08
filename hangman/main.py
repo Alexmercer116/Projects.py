@@ -1,9 +1,14 @@
 import random
-from hangman_words import word_list
-import hangman_logo as hl
+from words import word_list
+from art import logo,stages,gameover
 
-print(hl.logo)
+# dislay the art
+print(logo)
+
+# choosing a random word from the list using choice()
 chosen_word=random.choice(word_list)
+
+# a blanks list
 blanks=["_"]*len(chosen_word)
 lives=6
 gameover=False
@@ -18,8 +23,8 @@ while(not(gameover)):
       lives-=1
       if(lives==0):
          gameover=True
-         print(hl.gameover)
-   print(hl.stages[lives])
+         print(gameover)
+   print(stages[lives])
    
    print(*blanks)
 
