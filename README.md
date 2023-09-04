@@ -1,4 +1,5 @@
 # Projects.py
+<<<<<<< HEAD
 This repo contains the projects that I've learnt and completed from my course called **100 Days of Code:Python**.
 <p> The course is Interesting,fun to learn and challenging to complete.
 <p> Here are the projects I've completed so far in my learning journey some are easy ,some are interesting and some are challenging.Either way I had fun while creating these and learning these projects.
@@ -15,3 +16,6 @@ This repo contains the projects that I've learnt and completed from my course ca
 ## [Higher Lower](higherlowergame):
 * **Higher Lower** Game is a simple command-line interface (CLI) implementation of the classic guessing game. In this Python-based game, players are presented with a random number, and they must guess whether the next number will be higher or lower. It's a fun and addictive way to test your intuition and prediction skills.
 
+=======
+This repo contains python projects/challenges from 100 days of code-python. 
+>>>>>>> refs/remotes/origin/main
